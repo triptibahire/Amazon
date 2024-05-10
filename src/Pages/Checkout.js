@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import Header from '../Components/Header'
+// import Header from '../Components/Header'
 // import StarIcon from '@mui/icons-material/Star';
 import OneCartProduct from '../Components/OneCartProduct';
 import { useSelector } from 'react-redux';
@@ -26,7 +26,7 @@ function Checkout() {
 
     return (
         <div className='Checkout'>
-            <Header />
+            {/* <Header /> */}
             <div className='checkoutContainer'>
                 <div className='cartProducts'>
                     {

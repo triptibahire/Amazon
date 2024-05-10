@@ -5,6 +5,7 @@ import SearchIcon from '@mui/icons-material/Search';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import { useSelector } from "react-redux";
+import AmazonLogo from '../img/loo4r9ix.png'
 function Header() {
     const totalCartItems = useSelector(
         (state) => state.basket.items.length
@@ -12,8 +13,9 @@ function Header() {
     return (
         <header>
             {/* <!-- logo --> */}
-            <div className="headerData">
-                <img src={require('../Images/Amazon.png.png')} alt="" />
+            <div className="headerData h-4 w-5">
+                {/* <img src={require('../Images/Amazon.png.png')} alt="" /> */}
+                <img src={AmazonLogo} />
             </div>
 
             {/* <!-- location --> */}
